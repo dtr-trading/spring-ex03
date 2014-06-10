@@ -12,7 +12,7 @@
 <h1>Edit strategy page</h1>
 <p>Here you can edit the existing strategy.</p>
 <p>${message}</p>
-<form:form method="POST" commandName="strategy" action="${pageContext.request.contextPath}/strategy/edit/${team.id}.html">
+<form:form method="POST" commandName="strategy" action="${pageContext.request.contextPath}/strategy/edit/${strategy.id}.html">
 <table>
 <tbody>
 	<tr>
